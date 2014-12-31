@@ -48,14 +48,14 @@ pain in the ass.
 /*
 Use this for extract all content from livelink, the content=dcada argument add the base64 of all files includes in the livelink
 
-$url_xml = "http://cs.colbunsa.cl/livelink/livelink.exe?func=ll&objId=" .$idCC. "&objAction=xmlexport&versioninfo=1&scope=sub&versioninfo=all&followaliases&content=cdata";
+$url_xml = "http://server.com/livelink/livelink.exe?func=ll&objId=" .$idCC. "&objAction=xmlexport&versioninfo=1&scope=sub&versioninfo=all&followaliases&content=cdata";
 
 */
 
 /*
 Use this  for extract only a directory structure
 
-$url_xml = "http://cs.colbunsa.cl/livelink/livelink.exe?func=ll&objId=" .$idCC. "&objAction=xmlexport&versioninfo=1&scope=sub&versioninfo=all&schema&followaliases";
+$url_xml = "http://server.com/livelink/livelink.exe?func=ll&objId=" .$idCC. "&objAction=xmlexport&versioninfo=1&scope=sub&versioninfo=all&schema&followaliases";
 */
 
 sleep(2);
